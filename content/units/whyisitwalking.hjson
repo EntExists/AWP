@@ -1,11 +1,11 @@
 type: legs
-name: Advanced Weapon Platform A
-description: Heavy weapon platform. Launching from sector is one of the only three ways to escape it.
+name: AWP - A
+description: Heavy weapon platform. Launching from sector is one of the only ways to escape it.
 speed: 0.1
 omniMovement: true
 hitSize: 56
-health: 26000
-armor: 13
+health: 50000
+armor: 18
 canBoost: false
 rotateSpeed: 1
 rotateShooting: true
@@ -13,6 +13,7 @@ allowLegStep: true
 legLength: 35
 legCount: 4
 legMoveSpace: 0.3
+canDrown: false
 weapons: [
     {
     name: run
@@ -29,12 +30,12 @@ weapons: [
     burstSpacing: 1
     bullet: {
         type: standardThoriumBig
-        damage: 140
-        width: 9
-        height: 9
-        lifetime: 50
-        knockback: 1
-        speed: 3
+        damage: 200
+        width: 12
+        height: 12
+        lifetime: 75
+        knockback: 3
+        speed: 5
     }
 }
     {
@@ -52,12 +53,12 @@ weapons: [
     burstSpacing: 1
     bullet: {
         type: standardThoriumBig
-        damage: 140
-        width: 9
-        height: 9
-        lifetime: 50
-        knockback: 1
-        speed: 3
+        damage: 200
+        width: 12
+        height: 12
+        lifetime: 75
+        knockback: 3
+        speed: 5
     }
 }
 ]

@@ -1,0 +1,62 @@
+type: legs
+name: AWP - B
+description: Incendiary weapon platform. Launching from sector is one of the only ways to escape it. UNFINISHED.
+speed: 0.1
+omniMovement: true
+hitSize: 56
+health: 50000
+armor: 18
+canBoost: false
+rotateSpeed: 1
+rotateShooting: true
+allowLegStep: true
+legLength: 35
+legCount: 4
+legMoveSpace: 0.3
+canDrown: false
+weapons: [
+    {
+    name: arson
+    x: 0
+    y: 8.2
+    mirror: false
+    alternate: true
+    rotate: true
+    shots: 5
+    inaccuracy: 0
+    recoil: 5
+    reload: 50
+    shootSound: shootSnap
+    bullet: {
+        type: heavyOilShot
+        damage: 25
+        width: 20
+        height: 20
+        lifetime: 75
+        knockback: 3
+        speed: 5
+        fragBullets: 5
+        fragBullet: {
+            type: oilShot
+            damage: 10
+            width: 6
+            height: 6
+            lifetime: 10
+            knockback: 3
+            speed: 10
+            fragBullets: 5
+            fragBullet: {
+                 type: fireball
+                 damage: 15
+                 width: 3
+                 height: 3
+                 lifetime: 10
+                 knockback: 3
+                 speed: 10
+                 pierceWalls: true
+               }
+          }
+    }
+}
+]
+research: vault
