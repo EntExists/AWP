@@ -1,0 +1,27 @@
+plans: [
+  {
+    unit: dagger
+    requirements: [
+      silicon/10
+      lead/10
+    ] 
+    time: 900
+  }
+  {
+    unit: crawler
+    requirements: [
+      silicon/10
+      coal/20
+    ] 
+    time: 720
+  }
+  {
+    unit: nova
+    requirements: [
+      silicon/30
+      lead/20
+      titanium/20
+    ] 
+    time: 2400
+  }
+]

@@ -1,0 +1,64 @@
+type: legs
+name: Advanced Weapon Platform A
+description: Heavy weapon platform. Launching from sector is one of the only three ways to escape it.
+speed: 0.1
+omniMovement: true
+hitSize: 56
+health: 26000
+armor: 13
+canBoost: false
+rotateSpeed: 1
+rotateShooting: true
+allowLegStep: true
+legLength: 35
+legCount: 4
+legMoveSpace: 0.3
+weapons: [
+    {
+    name: run
+    x: 20
+    y: 20
+    mirror: true
+    alternate: true
+    rotate: true
+    shots: 2
+    inaccuracy: 3
+    recoil: 5
+    reload: 25
+    shootSound: shootSnap
+    burstSpacing: 1
+    bullet: {
+        type: standardThoriumBig
+        damage: 140
+        width: 9
+        height: 9
+        lifetime: 50
+        knockback: 1
+        speed: 3
+    }
+}
+    {
+    name: run
+    x: 20
+    y: -20
+    mirror: true
+    alternate: true
+    rotate: true
+    shots: 2
+    inaccuracy: 3
+    recoil: 5
+    reload: 25
+    shootSound: shootSnap
+    burstSpacing: 1
+    bullet: {
+        type: standardThoriumBig
+        damage: 140
+        width: 9
+        height: 9
+        lifetime: 50
+        knockback: 1
+        speed: 3
+    }
+}
+]
+research: vault
